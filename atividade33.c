@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &numeros[i]);
     }
 
-    for(i=5; i >=0;i--){
+    for(i=5-1; i >=0;i--){
         printf("%d ", numeros[i]);
     }
 }
